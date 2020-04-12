@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from cvxopt import matrix, solvers
 from transfer_functions import *
-# https://github.com/magicgh/machine-learning-homework/blob/master/SVM/transfer_functions.py 
 class LinearSVM(object):
     def __init__(self, func):
         self.func=func
