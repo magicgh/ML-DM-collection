@@ -35,5 +35,4 @@ if __name__ == "__main__":
             cancer.target[i]=-1
     X_train, X_test, y_train, y_test=train_test_split(cancer.data, cancer.target, test_size=0.3)
     clf = LinearSVM(hardlims)
-    clf.fit(X_train, y_train)
-    print('Accuracy =', clf.score(X_test, y_test))
+    clf.score(X_train, y_train)
