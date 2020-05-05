@@ -9,3 +9,6 @@
   &emsp;&emsp;Geometric margin: ![image.png](https://i.loli.net/2020/04/12/nMpsc8zRZGLBb2U.png)
 * Q4: What limitations the linear SVM suffered from?  
   &emsp;&emsp;The linear SVM can not separate the data that is not linearly separable.
+
+![f7e6869e-918d-4fd4-b42c-43e847bcd78b.png](https://i.loli.net/2020/05/05/ZFz9tQ8OXHbKm5j.png)
+
