@@ -1,15 +1,16 @@
-# Introduction to ML Final Assignment
+# Introduction to Machine Learning Final Assignment
 
 ## Description
 
-Simple implementation of kNN & SVM on MNIST dataset. 
+Simple implementation of kNN & SVM on MNIST dataset.
 
 ## Results
-* **kNN Classifier** (k=3, PCA, n_components=0.8)   
-mean=95.8550%, std=0.00227706   
+
+* **kNN Classifier** (k=3, PCA, n_components=0.8)
+mean=95.8550%, std=0.00227706
 total time: 649.5709s
 
-* **kNN Classifier based on KD-Tree** (k=3, PCA, n_components=0.8)     
+* **kNN Classifier based on KD-Tree** (k=3, PCA, n_components=0.8)
 mean=95.8550%, std=0.00227706  
 total time: 1616.3644s  
 
@@ -55,17 +56,17 @@ total time: 1616.3644s
     |     SD     | 0.00369662 | 0.00355528 |
     | Total Time |  2.6780s   |  1.8880s   |
 
-* **Sklearn SVC** (kernel='rbf', gamma='scale', dfs='ovr')   
- 
+* **Sklearn SVC** (kernel='rbf', gamma='scale', dfs='ovr')
+
     |     k      | PCA(0.85)  |  PCA(0.9)  |    LDA     |
     | :--------: | :--------: | :--------: | :--------: |
     |    Mean    |  96.7700%  |  96.7850%  |  92.6350%  |
     |     SD     | 0.00160779 | 0.00192743 | 0.00070000 |
     | Total Time |  8.5266s   |  12.5595s  |  3.4560s   |
 
-* **Linear SVM Classifier** (ovr)    
-Overall Accuracy:    
-mean=96.7700%, std=0.00137555   
-Average Accuracy:   
-mean=95.9090%, std=0.00137555   
-total time: 769.3448s   
+* **Linear SVM Classifier** (ovr)
+Overall Accuracy:
+mean=96.7700%, std=0.00137555
+Average Accuracy:
+mean=95.9090%, std=0.00137555
+total time: 769.3448s
