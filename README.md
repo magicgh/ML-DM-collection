@@ -1,6 +1,11 @@
-# ML Collection
+# ML&DM Collection
 
-Code and Assignment Collection about Machine Learning, classified by algorithms or courses.
+Code and paperwork collections about Machine Learning and Data Mining, mainly based the following courses I have taken in university.
+
+* Principles of Machine Learning
+* Introduction to Pattern Recognition
+* Principles of Data Mining
+* Big Geospatial Data Management and Mining
 
 ## License  
 
